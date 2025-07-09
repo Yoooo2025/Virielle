@@ -1,0 +1,13 @@
+# 🌹 Virielle 专用依赖
+
+# 用于 Streamlit 前端网页
+streamlit>=1.29
+
+# 用于调用 OpenRouter / OpenAI 最新 SDK
+openai>=1.10.0
+
+# 用于同步 POST 调用（您的 chat_with_bot 使用）
+requests>=2.31.0
+
+# 用于本地或调试时加载 .env（可选）
+python-dotenv>=1.0.0
